@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Кондитерська "Кундрат"</title>
+        <link rel="stylesheet" type="text/css" href="style6.css">
+    </head>
+    <body>
+        <div class="logo">
+            <img src="image/Logo.png" alt="Логотип" height="300">
+        </div>
+        
+
+        <nav class="navigation">
+            <p><a href="#about">Про нас</a></p>
+            <p><a href="#menu">Меню</a></p>    
+            <p><a href="#price">Прайс</a></p>
+            <p><a href="#order">Замовлення</a></p>
+            <p><a href="#contact">Контакти</a></p>
+        </nav>
+
+        <div class="mobile-menu">
+            <select onchange="location = this.value;">
+                <option value="" selected>Навігація</option>
+                <option value="#about">Про нас</option>
+                <option value="#menu">Меню</option>
+                <option value="#price">Прайс</option>
+                <option value="#order">Замовлення</option>
+                <option value="#contact">Контакти</option>
+            </select>
+        </div>          
+
+        <div id="about">
+            <h1>Про нас</h1>
+            <p>Кенді-бар | Торти | Випічка</p>
+            <p>Кондитерська, в якій можна пити каву</p>
+            <p>Щодня з 8:00 до 20:00</p>
+            <p>Більше в нашому Instagram: <a href="https://www.instagram.com/kundrat.com.ua/">@kundrat.com.ua</a></p>
+        </div>
+
+        <div id="menu">
+            <h1>Меню</h1>
+
+            <nav>
+                <p><a href="#cakes">Торти</a></p>
+                <p><a href="#desserts">Десерти</a></p>
+                <p><a href="#cookies">Печиво</a></p>
+            </nav>
+            <h2>Торти</h2>
+            <div id="cakes" class="item">
+                <div id="tropik">
+                    <h3>Торт "Тропік"</h3>
+                    <img src="image/Tropik.png" alt="Торт Тропік" height="300">
+                    <ul>
+                        <li>Лимонний бісквіт</li>
+                        <li>Мус манго-маракуя</li>
+                        <li>Начинка манго-маракуя</li>
+                        <li>Карамель манго-маракуя</li>
+                        <li>Крем-чиз</li>
+                    </ul>
+                </div>
+                <div id="brownie">
+                    <h3>Торт "Брауні"</h3>
+                    <img src="image/Brownie.png" alt="Торт Брауні" height="300">
+                    <ul>
+                        <li>Бісквіт брауні</li>
+                        <li>Карамельно-горіхова начинка</li>
+                        <li>Шоколадний крем</li>
+                    </ul>
+                </div>
+                <div id="oreo">
+                    <h3>Торт "Орео"</h3>
+                    <img src="image/Oreo.png" alt="Торт Орео" height="300">
+                    <ul>
+                        <li>Шоколадний бісквіт</li>
+                        <li>Печиво Орео</li>
+                        <li>Крем-чиз</li>                        
+                    </ul>
+                </div>
+                <div id="schwarz">
+                    <h3>Торт "Шварцвальдський"</h3>
+                    <img src="image/Schwarz.png" alt="Торт Шварцвальдський" height="300">
+                    <ul>
+                        <li>Шоколадний бісквіт</li>
+                        <li>Вишнева начинка</li>
+                        <li>Крем-чиз</li>
+                    </ul>
+                </div>
+                <div id="kyiv">
+                    <h3>Торт "Київський"</h3>
+                    <img src="image/Kyiv.png" alt="Торт Київський" height="300">
+                    <ul>
+                        <li>Білкові коржі з фундуком</li>
+                        <li>Шоколадно-кавовий крем</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <h2>Десерти</h2>
+            <div id="desserts" class="item">
+                <div id="lavyna">
+                    <h3>Десерт "Лавина"</h3>
+                    <img src="image/Lavyna.png" alt="Десерт Лавина" height="300">
+                    <ul>
+                        <li>Бісквіт брауні</li>
+                        <li>Солона карамель</li>
+                        <li>Мигдаль</li>
+                        <li>Шоколадно-кавовий мус</li>
+                        <li>Шоколадна глазур</li>                    
+                    </ul>
+                </div>
+                <div id="fitness">
+                    <h3>Десерт "Фітнес"</h3>
+                    <img src="image/Fitness.png" alt="Десерт Фітнес" height="300">
+                    <ul>
+                       <li>Сухофрукти</li>
+                       <li>Горіхи</li>
+                       <li>Насіння</li>
+                       <li>Медова карамель</li> 
+                    </ul>
+                </div>
+                <div id="tart_choc">
+                    <h3>Тарт фундук-карамель</h3>
+                    <img src="image/Tart_choc.png" alt="Тарт фундук-карамель" height="300">
+                    <ul>
+                        <li>Пісочне тісто</li>
+                        <li>Шоколадно-кавовий ганаш</li>
+                        <li>Солона карамель</li>
+                        <li>Фундук</li>
+                    </ul>
+                </div>
+                <div id="tart_berry">
+                    <h3>Тарт з лохиною</h3>
+                    <img src="image/Tart_berry.png" alt="Тарт з лохиною" height="300">
+                    <ul>
+                       <li>Пісочне тісто</li>
+                       <li>Цитрусовий курд</li>
+                       <li>Ягідний мармелад</li>
+                       <li>Лохина</li> 
+                    </ul>
+                </div>
+            </div>
+    
+            <h2>Печиво</h2>
+            <div id="cookies" class="item">
+                <div id="tvil">
+                    <h3>Печиво "Твіль"</h3>
+                    <img src="image/Tvil.png" alt="Печиво Твіль" height="300">
+                    <ul>
+                       <li>Цукрове печиво з мигдалем</li> 
+                    </ul>
+                </div>
+                <div id="anzak">
+                    <h3>Печиво "Анзак"</h3>
+                    <img src="image/Anzak.png" alt="Печиво Анзак" height="300">
+                    <ul>
+                        <li>Вівсяно-медове печиво з кокосом</li>
+                    </ul>
+                </div>
+                <div id="zernove">
+                    <h3>Печиво "Зернове"</h3>
+                    <img src="image/Zernove.png" alt="Печиво Зернове" height="300">
+                    <ul>
+                        <li>Зернове печиво з насінням соняшника, гарбуза, льоном, кунжутом</li>
+                    </ul>
+                </div>
+                <div id="nuts">
+                    <h3>Печиво "Горішки"</h3>
+                    <img src="image/Nuts.png" alt="Печиво Горішки" height="300">
+                    <ul>
+                        <li>Горішки зі згущеним молоком або фісташковою, шоколадною, ягідною чи маковою начинкою</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="price">
+            <h1>Прайс</h1>
+            <table border="2">
+                <tr>
+                    <th>Назва</th>
+                    <th>Ціна</th>
+                </tr>
+                <tr>
+                    <td><a href="#tropik">Торт "Тропік"</a></td>
+                    <td>&#8372;770/кг</td>
+                </tr>
+                <tr>
+                    <td><a href="#brownie">Торт "Брауні"</a></td>
+                    <td>&#8372;770/кг</td>
+                </tr>
+                <tr>
+                    <td><a href="#oreo">Торт "Орео"</a></td>
+                    <td>&#8372;770/кг</td>
+                </tr>
+                <tr>
+                    <td><a href="#schwarz">Торт "Шварцвальдський"</a></td>
+                    <td>&#8372;770/кг</td>
+                </tr>
+                <tr>
+                    <td><a href="#kyiv">Торт "Київський"</a></td>
+                    <td>&#8372;770/кг</td>
+                </tr>
+                <tr>
+                    <td><a href="#lavyna">Десерт "Лавина"</a></td>
+                    <td>&#8372;80/шт</td>
+                </tr>
+                <tr>
+                    <td><a href="#fitness">Десерт "Фітнес"</a></td>
+                    <td>&#8372;58/шт</td>
+                </tr>
+                <tr>
+                    <td><a href="#tart_choc">Тарт фундук-карамель</a></td>
+                    <td>&#8372;75/шт</td>
+                </tr>
+                <tr>
+                    <td><a href="#tart_berry">Тарт з лохиною</a></td>
+                    <td>&#8372;85/шт</td>
+                </tr>
+                <tr>
+                    <td><a href="#tvil">Печиво "Твіль"</a></td>
+                    <td>&#8372;75/50г</td>
+                </tr>
+                <tr>
+                    <td><a href="#anzak">Печиво "Анзак"</a></td>
+                    <td>&#8372;50/110г</td>
+                </tr>
+                <tr>
+                    <td><a href="#zernove">Печиво "Зернове"</a></td>
+                    <td>&#8372;55/110г</td>
+                </tr>
+                <tr>
+                    <td><a href="#nuts">Печиво "Горішки"</a></td>
+                    <td>&#8372;30/шт</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="order">
+            <h1>Замовлення</h1>
+            <ol>
+                <li>Оберіть смаколики з нашого <a href="#menu">меню.</a></li>
+                <li>Заповніть форму нижче.</li>
+                <li>Чекайте на зворотний зв'язок для підтвердження замовлення.</li>
+            </ol>
+            <form id="surveyForm">
+                <label for="name">Ім'я:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="phone">Телефон:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="099-123-45-67" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required><br>
+    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="desserts">Оберіть десерт:</label><br>
+                <select id="dessertsss" name="dessert">
+                    <option value="Торт Тропік">Торт "Тропік"</option>
+                    <option value="Торт Брауні">Торт "Брауні"</option>
+                    <option value="Торт Орео">Торт "Орео"</option>
+                    <option value="Торт Шварцвальдський">Торт "Шварцвальдський"</option>
+                    <option value="Торт Київський">Торт "Київський"</option>
+                    <option value="Десерт Лавина">Десерт "Лавина"</option>
+                    <option value="Десерт Фітнес">Десерт "Фітнес"</option>
+                    <option value="Тарт фундук-карамель">Тарт фундук-карамель</option>
+                    <option value="Тарт з лохиною">Тарт з лохиною</option>
+                    <option value="Печиво Твіль">Печиво "Твіль"</option>
+                    <option value="Печиво Анзак">Печиво "Анзак"</option>
+                    <option value="Печиво Зернове">Печиво "Зернове"</option>
+                    <option value="Печиво Горішки">Печиво "Горішки"</option>
+                </select><br><br>
+                
+
+                <label for="number">Вкажіть кількість:</label><br>
+                <input type="number" id="number" name="number" min="1" required><br><br>
+
+                <label for="date">Вкажіть дату й час доставки:</label><br>
+                <input type="datetime-local" id="date" name="date"><br><br>
+
+                <label for="delivery">Оберіть спосіб доставки:</label><br>
+                <input type="radio" id="pickup" name="delivery" value="Самовивіз">
+                <label for="pickup">Самовивіз</label><br>
+                <input type="radio" id="courier" name="delivery" value="Доставка кур'єром">
+                <label for="pickup">Доставка кур'єром</label><br><br>
+
+                <input type="checkbox" id="wrapping" name="wrapping" value="Подарункове">
+                <label for="wrapping">Подарункове упакування</label><br><br>
+
+                <input type="submit" value="Надіслати">
+
+                <input type="reset" value="Очистити">
+            </form>
+        </div>
+
+        <script>
+        var form = document.getElementById("surveyForm");
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+            var name = document.getElementById("name").value;
+            var phone = document.getElementById("phone").value;
+            var email = document.getElementById("email").value;
+            var dessert = document.getElementById("dessertsss").value;
+            var number = document.getElementById("number").value;
+            var date = document.getElementById("date").value;
+            var delivery = document.querySelector('input[name="delivery"]:checked').value;
+            var wrapping = document.getElementById("wrapping").checked;
+            
+            var savedResults = localStorage.getItem("surveyResults");
+            var resultsArray = [];
+            if (savedResults) {
+                resultsArray = JSON.parse(savedResults);
+            }
+            
+            var surveyResult = {
+                name: name,
+                phone: phone,
+                email: email,
+                dessert: dessert,
+                number: number,
+                date: date,
+                delivery: delivery,
+                wrapping: wrapping
+            };
+
+            resultsArray.push(surveyResult);
+            var resultsString = JSON.stringify(resultsArray);
+            localStorage.setItem("surveyResults", resultsString);
+            alert("Дякуємо за замовлення!");
+            form.reset();
+        });
+        </script>    
+
+        <div id="filter">
+        <label for="dessertFilter">Фільтр за десертом:</label>
+        <select id="dessertFilter" name="dessertFilter">
+            <option value="">Усі десерти</option>
+            <option value="Торт Тропік">Торт "Тропік"</option>
+            <option value="Торт Брауні">Торт "Брауні"</option>
+            <option value="Торт Орео">Торт "Орео"</option>
+            <option value="Торт Шварцвальдський">Торт "Шварцвальдський"</option>
+            <option value="Торт Київський">Торт "Київський"</option>
+            <option value="Десерт Лавина">Десерт "Лавина"</option>
+            <option value="Десерт Фітнес">Десерт "Фітнес"</option>
+            <option value="Тарт фундук-карамель">Тарт фундук-карамель</option>
+            <option value="Тарт з лохиною">Тарт з лохиною</option>
+            <option value="Печиво Твіль">Печиво "Твіль"</option>
+            <option value="Печиво Анзак">Печиво "Анзак"</option>
+            <option value="Печиво Зернове">Печиво "Зернове"</option>
+            <option value="Печиво Горішки">Печиво "Горішки"</option>
+        </select><br><br>
+        
+        <label for="deliveryFilter">Фільтр за способом доставки:</label><br>
+        <input type="radio" id="pickupFilter" name="deliveryFilter" value="Самовивіз">
+        <label for="pickupFilter">Самовивіз</label><br>
+        <input type="radio" id="courierFilter" name="deliveryFilter" value="Доставка кур'єром">
+        <label for="courierFilter">Доставка кур'єром</label><br><br>
+        
+        <label for="dateFilter">Фільтр за датою доставки:</label><br>
+        <input type="date" id="dateFilter" name="dateFilter"><br><br>
+        
+        <button onclick="applyFilters()">Застосувати фільтри</button>
+        
+
+        <div id="filteredOrders"></div>
+        <script>
+        function applyFilters() {
+            var dessertFilter = document.getElementById("dessertFilter").value;
+            var pickupFilter = document.getElementById("pickupFilter").checked;
+            var courierFilter = document.getElementById("courierFilter").checked;
+            var dateFilter = document.getElementById("dateFilter").value;
+
+            var savedResults = localStorage.getItem("surveyResults");
+
+            if (savedResults) {
+                var resultsArray = JSON.parse(savedResults);
+
+                var filteredResults = resultsArray.filter(function(result) {
+                    var matchesDessert = !dessertFilter || result.dessert === dessertFilter;
+                    var matchesPickup = !pickupFilter || (result.delivery === 'Самовивіз' && pickupFilter);
+                    var matchesCourier = !courierFilter || (result.delivery === 'Доставка кур\'єром' && courierFilter);
+                    var matchesDate = !dateFilter || result.date.includes(dateFilter);
+
+                    return matchesDessert && matchesPickup && matchesCourier && matchesDate;
+                });
+                
+                var output = document.getElementById("filteredOrders");
+                if (output) {
+                    output.innerHTML = "";
+
+                    if (filteredResults.length > 0) {
+                        filteredResults.forEach(function(result) {
+                            var orderItem = document.createElement("div");
+                            orderItem.innerHTML = `
+                            <p><strong>Ім'я:</strong> ${result.name}</p>
+                            <p><strong>Телефон:</strong> ${result.phone}</p>
+                            <p><strong>Email:</strong> ${result.email}</p>
+                            <p><strong>Десерт:</strong> ${result.dessert}</p>
+                            <p><strong>Кількість:</strong> ${result.number}</p>
+                            <p><strong>Дата доставки:</strong> ${result.date}</p>
+                            <p><strong>Спосіб доставки:</strong> ${result.delivery}</p>
+                            <p><strong>Подарункове упакування:</strong> ${result.wrapping ? 'Так' : 'Ні'}</p>
+                            <hr>
+                            `;
+                            output.appendChild(orderItem);
+                        });
+                    } else {
+                        var noResultsMessage = document.createElement("div");
+                        noResultsMessage.innerHTML = "<p>Замовлень за вказаними фільтрами не знайдено.</p>";
+                        output.appendChild(noResultsMessage);
+                    }
+                } else {
+                    console.error("Елемент з id 'filteredOrders' не знайдено.");
+                }
+            } else {
+                console.error("Збережених результатів не знайдено.");
+            }
+        }
+        </script>
+        </div></div>
+        
+        
+        <div id="test-container">
+            <h1>Тест "Вгадай десерт"</h1>
+            <button class="btn-start" onclick="startTest()">Почати</button>
+        </div>
+        
+        <div id="questions-container" style="display: none;"></div>
+        <div id="result-container" style="display: none;"></div>
+        
+        <script>
+        const dessertTest = {
+            "testName": "Тест 'Вгадай десерт'",
+            "questions": [
+                {
+                    "question": "Який десерт зображено на фото?",
+                    "image": "image/Oreo.png",
+                    "answers": [
+                        {
+                            "answer": "Торт 'Тропік'",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Торт 'Орео'",
+                            "isCorrect": true
+                        },
+                        {
+                            "answer": "Торт 'Київський'",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Торт 'Шварцвальдський'",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Який десерт зображено на фото?",
+                    "image": "image/Lavyna.png",
+                    "answers": [
+                        {
+                            "answer": "Десерт 'Лавина'",
+                            "isCorrect": true
+                        },
+                        {
+                            "answer": "Десерт 'Фітнес'",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Тарт фундук-карамель",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Тарт з лохиною",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Який десерт зображено на фото?",
+                    "image": "image/Zernove.png",
+                    "answers": [
+                        {
+                            "answer": "Печиво 'Твіль'",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Печиво 'Горішки'",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Печиво 'Анзак'",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Печиво 'Зернове'",
+                            "isCorrect": true
+                        }
+                    ]
+                },
+                {
+                    "question": "Що входить до складу цього десерту?",
+                    "image": "image/Fitness.png",
+                    "answers": [
+                        {
+                            "answer": "Солона карамель",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Сухофрукти",
+                            "isCorrect": true
+                        },
+                        {
+                            "answer": "Ягоди",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Шоколад",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Що не входить до складу цього десерту?",
+                    "image": "image/Brownie.png",
+                    "answers": [
+                        {
+                            "answer": "Карамельно-горіхова начинка",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Бісквіт брауні",
+                            "isCorrect": false
+                        },
+                        {
+                            "answer": "Крем-чиз",
+                            "isCorrect": true
+                        },
+                        {
+                            "answer": "Шоколадний крем",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        };
+        
+        const testContainer = document.getElementById('test-container');
+        const questionsContainer = document.getElementById('questions-container');
+        const resultContainer = document.getElementById('result-container');
+        let currentQuestionIndex = 0;
+        let score = 0;
+        
+        function startTest() {
+            testContainer.style.display = 'none';
+            questionsContainer.style.display = 'block';
+            loadQuestion();
+        }
+        
+        function loadQuestion() {
+            const currentQuestion = dessertTest.questions[currentQuestionIndex];
+            const questionElement = document.createElement('div');
+            questionElement.classList.add('question');
+            questionElement.innerHTML = `
+                <h3>${currentQuestion.question}</h3>
+                <img src="${currentQuestion.image}" alt="Dessert Image">
+                <div class="answers">
+                    ${currentQuestion.answers.map((answer, index) => `
+                        <button class="btn-answer" onclick="checkAnswer(${index})">${answer.answer}</button>
+                    `).join('')}
+                </div>
+            `;
+            questionsContainer.innerHTML = '';
+            questionsContainer.appendChild(questionElement);
+        }
+                
+        function checkAnswer(answerIndex) {
+            const currentQuestion = dessertTest.questions[currentQuestionIndex];
+            if (currentQuestion.answers[answerIndex].isCorrect) {
+                score++;
+                showAnswerResult(true, currentQuestion.answers[answerIndex])
+            } else {
+                const correctAnswer = currentQuestion.answers.find(answer => answer.isCorrect);
+                showAnswerResult(false, correctAnswer.answer);
+            }
+            currentQuestionIndex++;
+            if (currentQuestionIndex < dessertTest.questions.length) {
+                loadQuestion();
+            } else {
+                showResult();
+            }
+        }
+
+        function showAnswerResult(isCorrect, correctAnswer) {
+            const answerResultElement = document.createElement('div');
+            answerResultElement.classList.add('answer-result');
+            resultContainer.style.display = 'block';
+            if (isCorrect) {
+                answerResultElement.innerHTML = `
+                <p class="correct-answer">Правильно!</p>
+                `;
+            } else {
+                answerResultElement.innerHTML = `
+                <p class="incorrect-answer">Неправильно! Правильна відповідь: ${correctAnswer}</p>
+                `;
+            }
+            resultContainer.appendChild(answerResultElement);
+        }
+                
+        function showResult() {
+            questionsContainer.style.display = 'none';
+            
+            const result = `
+                <br><h2>Результат тесту:</h2>
+                <p>Правильних відповідей: ${score} з ${dessertTest.questions.length}</p>
+                <button class="btn-restart" onclick="restartTest()">Пройти ще раз</button>
+            `;
+
+            resultContainer.insertAdjacentHTML('beforeend', result)
+        }
+                
+        function restartTest() {
+            currentQuestionIndex = 0;
+            score = 0;
+            questionsContainer.style.display = 'block';
+            resultContainer.style.display = 'none';
+            loadQuestion();
+        }
+
+        </script>
+        
+        <div id="game-container">
+            <h1>Гра "Допоможи капкейку"</h1>
+            <iframe src="game.html" title="game" width="100%" height="550px"></iframe>
+        </div>
+
+        <div id="contact">
+            <h1>Контакти</h1>
+            <p>Адреса: <address>м.Львів, вул. Трускавецька, 125</address></p>
+            <p>Телефон: +38 097 164 0330</p>        
+        </div>           
+    </body>
+</html>
